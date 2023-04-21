@@ -1,0 +1,14 @@
+{
+  "name": "sockets-practice",
+  "scripts": {
+    "build": "npm run build --workspaces --if-present"
+  },
+  "author": "Michael Moreno",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "workspaces": [
+    "src/frontend",
+    "src/backend"
+  ]
+}
