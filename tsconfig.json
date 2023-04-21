@@ -3,7 +3,8 @@
         "strict": true
     },
     "include": [
-        "src/**/*.ts"
+        "frontend/**/*.ts",
+        "backend/**/*.ts"
     ],
     "exclude": [
         "node_modules",

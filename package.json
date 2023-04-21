@@ -8,7 +8,7 @@
     "typescript": "^5.0.4"
   },
   "workspaces": [
-    "src/frontend",
-    "src/backend"
+    "frontend",
+    "backend"
   ]
 }
