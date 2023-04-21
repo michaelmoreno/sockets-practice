@@ -2,6 +2,11 @@
   "name": "frontend",
   "version": "1.0.0",
   "scripts": {
-    "build": "npx tsc"
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^4.3.1"
   }
 }
